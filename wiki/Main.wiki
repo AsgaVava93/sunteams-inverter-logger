@@ -1,5 +1,3 @@
-#summary One-sentence summary of this page.
-
 = Introduction =
 
 This details the specifications to use the serial interface with the inverter. This was obtained running a serial port monitor with the supplied software and analyzing the output.
