@@ -12,6 +12,9 @@ This details the specifications to use the serial interface with the inverter. T
 }}}
 
 ===Initialization sequence===
+{{{
+Send init1
+}}}
 
 ===Commands to Inverter.===
 {{{
