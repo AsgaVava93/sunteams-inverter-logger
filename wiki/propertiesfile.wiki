@@ -10,14 +10,17 @@ SystemId =
 APIKey = 
 URL =  http://pvoutput.org/service/r1/addstatus.jsp
 cUrl = c:\curl\curl.exe
+mode = peak
 }}}
-*PORT* - This is the serial port the logger should connect to.<br>
-*DAILYFILE* - The location to create the daily file with every sample taken.<br>
-*SystemId* - You system id<br>
-*APIkey* - You API Key<br>
-*URL* - The url that accepts the live updates<br>
-*cUrl* - The location of the curl executable<br>
-*mode* - The type of instantanious power to record
-  peak -> peak power for last 10 minutes<br>
-  avg -> average power for last 10 minutes<br>
-  act -> actual power when the 10 minute sample was take<br>
+{{{
+PORT - This is the serial port the logger should connect to.
+DAILYFILE - The location to create the daily file with every sample taken.
+SystemId - You system id
+APIkey - You API Key
+URL - The url that accepts the live updates
+cUrl - The location of the curl executable
+mode - The type of instantanious power to record
+  peak -> peak power for last 10 minutes
+  avg -> average power for last 10 minutes
+  act -> actual power when the 10 minute sample was take
+}}}
