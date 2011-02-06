@@ -17,3 +17,7 @@ cUrl = c:\curl\curl.exe
 *APIkey* - You API Key<br>
 *URL* - The url that accepts the live updates<br>
 *cUrl* - The location of the curl executable<br>
+*mode* - The type of instantanious power to record
+  peak -> peak power for last 10 minutes<br>
+  avg -> average power for last 10 minutes<br>
+  act -> actual power when the 10 minute sample was take<br>
